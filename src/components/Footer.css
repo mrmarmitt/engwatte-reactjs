@@ -52,4 +52,8 @@
   .footer-address {
     text-align: center;
   }
+
+  .footer-logo {
+    display: none;
+  }
 }
