@@ -2,5 +2,29 @@ main {
   background-image: url('../public/fundo_2.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh; /* Adjust as needed */
+  height: 100%;
+  /* Adjust as needed */
+}
+
+.box {
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+@media (max-width: 768px) {
+  .box {
+    height: 15vh;
+  }
+}
+
+p {
+  margin-bottom: 1em;
+  text-indent: 1em;
 }
