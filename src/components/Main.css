@@ -1,0 +1,6 @@
+main {
+  background-image: url('../public/fundo_2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust as needed */
+}
