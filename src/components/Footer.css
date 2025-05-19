@@ -3,7 +3,6 @@
   color: white;
   padding: 20px;
   text-align: center;
-  font-size: 14px;
 }
 
 .footer-content {
@@ -23,7 +22,8 @@
 
 .footer-logo img {
   max-width: 100%;
-  max-height: 100px;
+  max-height: 150px;
+  margin-left: 100px;
   height: auto;
 }
 
@@ -34,13 +34,13 @@
 .footer-contact a {
   color: white;
   margin: 0 10px;
-  font-size: 20px;
   display: flex;
   align-items: center;
 }
 
 .footer-address {
   text-align: right;
+  font-size: 1.0em;
 }
 
 @media (max-width: 600px) {
