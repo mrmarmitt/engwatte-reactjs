@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
@@ -19,10 +20,11 @@ function Header() {
             &#9776;
           </button>
           <ul className={`header-menu ${menuOpen ? 'header-menu-open' : ''}`}>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Solicite um orçamento</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/sobre">Sobre</Link></li>
+            <li><Link to="/servicos">Serviços</Link></li>
+            {/* <li><Link to="/cases">Cases</Link></li> */}
+            <li><Link to="/contato">Solicite um orçamento</Link></li>
           </ul>
         </nav>
       </div>

@@ -9,14 +9,11 @@ function Footer() {
           <img src="/footer-logo-eng-watte.png" alt="WATTE Engenharia Logo" />
         </div>
         <div className="footer-contact">
-          <a href="mailto:info@meusite.com">
-            <img src="/email.svg" alt="Email" style={{ width: '80px', height: '80px', background: 'transparent' }}/>
-          </a>
           <a href="https://wa.me/1234567890">
-            <img src="/whatsApp.svg" alt="WhatsApp" style={{ width: '50px', height: '50px', background: 'transparent' }}/>
+            <img src="/whatsApp.svg" alt="WhatsApp" style={{ width: '40px', height: '50px', background: 'transparent' }}/>
           </a>
           <a href="https://instagram.com">
-            <img src="/instagram.svg" alt="Instagram" style={{ width: '80px', height: '80px', background: 'transparent' }}/>
+            <img src="/instagram.svg" alt="Instagram" style={{ width: '40px', height: '80px', background: 'transparent' }}/>
           </a>
         </div>
         <div className="footer-address">
@@ -24,7 +21,6 @@ function Footer() {
           <p>Av. Bernardino de Campos, 98 - São Paulo, SP 12345-678</p>
           <p>info@meusite.com</p>
           <p>Telefone: (11) 3456-7890</p>
-          <p>Estimativa de entrega 2 - 5 dias úteis</p>
         </div>
       </div>
     </footer>
